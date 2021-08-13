@@ -13,7 +13,7 @@ from discord.ext.commands import Bot
 import asyncio
 
 my_secret1 = os.environ['tokenbitly']
-my_secret2 = os.environ['token']
+my_secret2 = 'ODc1NDIxMTIxNzYyMTcyOTQ4.YRVRcw.R8kaUg5hO0kz6-G4qiWWUWpJ-XE'
 
 Client = commands.Bot(command_prefix='!')
 
