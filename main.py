@@ -12,7 +12,7 @@ from keep_alive import keep_alive
 from discord.ext.commands import Bot
 import asyncio
 
-my_secret1 = os.environ['tokenbitly']
+my_secret1 = 'key'
 my_secret2 = 'key'
 
 Client = commands.Bot(command_prefix='!')
